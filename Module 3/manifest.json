@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter Live Updates",
+  "description": "This is my first chrome extenstion",
+  "version": "1.0",
+  "background":{
+    "page": "background.html"
+     
+  },
+  "icons":{
+    "64" : "icon.png",
+    "32" : "icon.png",
+    "16" : "icon.png",
+    "128" : "icon.png"
+  },
+  "permissions":[
+  "notifications",
+  "https://twitter.com/i/notifications"
+  ]
+}
