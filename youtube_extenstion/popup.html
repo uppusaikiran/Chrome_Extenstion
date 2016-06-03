@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
         <title>Youtube Chrome Extenstion</title>
 
@@ -13,13 +14,19 @@
           <!--  The <iframe> will replace this <div> tag. -->
             <div id="player"></div>
 
-            <button type="button" name="button" class="btn btn-danger">Click Here</button>
+            <button type="button" name="button" class="btn btn-danger" id="buttonclick">Click Here</button>
+
+            <div class="well well-sm" id="container">
+
+            </div>
 
         </div>
 
-
+        <!-- Main script file to run the Youtube API -->
         <script src="scripts/main.js"></script>
+        <!-- Jquery Required for bootstrap -->
         <script src="scripts/jquery.min.js" charset="utf-8"></script>
+        <!-- bootstrap Javascript -->
         <script src="scripts/bootstrap.min.js" charset="utf-8"></script>
     </body>
 </html>
