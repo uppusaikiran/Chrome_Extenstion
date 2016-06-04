@@ -11,5 +11,9 @@
     "content_security_policy": "script-src https://s.ytimg.com https://*.youtube.com; object-src 'self'",
     "icons": {
         "48": "images/icon48.png"
-    }
+    },
+    "permissions": [
+    "activeTab",
+    "tabs"
+   ]
 }

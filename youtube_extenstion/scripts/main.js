@@ -47,7 +47,7 @@ function stopVideo() {
 
 
 
-// User defined functions to display the time 
+// User defined functions to display the time
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("buttonclick").addEventListener("click", handler);
 });
