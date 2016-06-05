@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Cricbuzz Live Feed",
+    "version": "0.0.1",
+    "description": "A plain text description",
+    "author": "Saikiran uppu",
+    "content_scripts": [{
+        "matches": ["https://www.cricbuzz.com/*"],
+        "js": ["scripts/jquery.js", "main.js"]
+    }],
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "icons": {
+        "16": "images/icon_16.png",
+        "48": "images/icon_48.png",
+        "128": "images/icon_128.png"
+    },
+
+    "browser_action": {
+        "default_icon": "images/icon_128.png",
+        "default_popup": "popup.html"
+    }
+}
