@@ -4,7 +4,7 @@
   "description" : "a simple timer extenstion",
   "verstion" : "0.0.1",
   "browser_action":{
-    "default_icon" : "icon.png",
+    "default_icon" : "images/icon.png",
     "default_title": "Timer Extenstion",
     "default_popup": "popup.html"
   }
