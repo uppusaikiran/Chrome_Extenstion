@@ -1,12 +1,15 @@
 {
     "manifest_version": 2,
     "name": "Cricbuzz Live Feed",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "A plain text description",
     "author": "Saikiran uppu",
     "content_scripts": [{
-        "matches": ["https://www.cricbuzz.com/*"],
-        "js": ["scripts/jquery.js", "main.js"]
+        "matches": ["http://www.cricbuzz.com/"],
+        "js": ["scripts/jquery.js", "scripts/main.js"]
+    }, {
+        "matches": ["http://*/*	" , "https://*/*"	],
+        "js": ["scripts/loadapi.js"]
     }],
     "permissions": [
         "activeTab",
